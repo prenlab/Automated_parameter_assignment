@@ -1,3 +1,7 @@
+###
+### The part of parameters were from Xudong by grouping the more specific AMOEBA+ atom types and taking the average within each group.
+###
+
 bond       O3        H     514.0633     0.9753
 bond        H       C3     359.9910     1.0926
 bond       N3        H     463.4054     1.0160
@@ -326,3 +330,28 @@ angle      O-       O-        H      68.9847    99.6864
 angle       I       C3       C3      73.3971   110.7695
 angle      C3       O-       C2      63.1593   113.9633
 angle     Car       C3       C2      71.8895   111.1383
+
+
+###
+### The following parameters were from Poltype based on a subset of ANI1 dataset
+###
+# Force constants were guessed by the Poltype 2 based on the elements and valences.
+# Bond lengths were the average of those from QM opt structures (obtained with Poltype 2) of a subset of ANI1.
+# The subset means all the molecules I had done for the time being, including all in ANI1 with heavy atoms <= 7 and a few of = 8.
+
+bond	C1	C2	385.0	1.4320
+bond	C2	Nar	600.0	1.4135
+bond	C3	O2	465.0	1.4650
+bond	Car	O2	465.0	1.3900
+bond	N2	N2	850.0	1.4154
+bond	N2	N3	850.0	1.3899
+bond	N2	Nar	850.0	1.3843
+bond	N2	O-	750.0	1.4314
+bond	N3	N3	850.0	1.4148
+bond	N3	Nar	850.0	1.3976
+bond	N3	O-	750.0	1.4349
+bond	N3	O3	750.0	1.4250
+bond	Nar	O3	750.0	1.3956
+bond	Nar	Oar	750.0	1.4189
+bond	O2	O2	750.0	1.2700
+bond	O3	O3	750.0	1.4550
